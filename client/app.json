@@ -1,16 +1,16 @@
 {
   "expo": {
-    "name": "Shopping List",
+    "name": "Party Shopping List",
     "slug": "groceries-shopping-list",
     "version": "1.2.3",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "groceries-shopping-list",
+    "scheme": "partyShoppingList",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.betoatexpo.groceries-shopping-list",
+      "bundleIdentifier": "com.carles.partyShoppingList",
       "appleTeamId": "T2A8YY9YDW",
       "icon": {
         "light": "./assets/images/icon.png",
@@ -22,7 +22,7 @@
       },
       "entitlements": {
         "com.apple.security.application-groups": [
-          "group.com.betoatexpo.groceries-shopping-list"
+          "group.com.carles.partyShoppingList"
         ]
       }
     },
@@ -31,7 +31,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.betoatexpo.groceriesshoppinglist"
+      "package": "com.carles.partyShoppingList"
     },
     "web": {
       "bundler": "metro",
