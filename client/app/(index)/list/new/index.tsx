@@ -12,7 +12,6 @@ import { backgroundColors, emojies } from "@/constants/Colors";
 import { useJoinShoppingListCallback } from "@/stores/ShoppingListsStore";
 
 const isValidUUID = (id: string | null) => {
-  console.log("isValidUUID: ", id);
   if (!id) return false;
   const uuidRegex =
     /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
@@ -61,7 +60,6 @@ export default function NewListScreen() {
       }, 100);
     }
   };
-  console.log("new list LANDING");
   return (
     <BodyScrollView contentContainerStyle={styles.scrollViewContent}>
       <View style={styles.container}>
