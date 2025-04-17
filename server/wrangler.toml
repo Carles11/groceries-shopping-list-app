@@ -1,13 +1,13 @@
 #:schema node_modules/wrangler/config-schema.json
-name = "groceries-shopping-list-server"
+name = "party-shopping-list-server"
 main = "index.ts"
 compatibility_date = "2024-10-11"
-route = { pattern = "groceries-shopping-list.tinybase.cloud", custom_domain = true }
+route = { pattern = "party-shopping-list.tinybase.cloud", custom_domain = true }
 
 [[durable_objects.bindings]]
-name = "GroceriesDurableObjects"
-class_name = "GroceriesDurableObject"
+name = "PartyDurableObjects"
+class_name = "PartyDurableObject"
 
 [[migrations]]
 tag = "v1"
-new_classes = ["GroceriesDurableObject"]
+new_classes = ["PartyDurableObject"]

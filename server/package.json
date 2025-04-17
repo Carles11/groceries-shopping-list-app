@@ -1,5 +1,5 @@
 {
-  "name": "groceries-shopping-list-server",
+  "name": "party-shopping-list-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
@@ -13,7 +13,7 @@
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241018.0",
     "typescript": "^5.5.2",
-    "wrangler": "^3.60.3"
+    "wrangler": "^4.11.1"
   },
   "dependencies": {
     "tinybase": "^5.4.0"

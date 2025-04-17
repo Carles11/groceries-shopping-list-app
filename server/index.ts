@@ -5,7 +5,7 @@ import {
   WsServerDurableObject,
 } from "tinybase/synchronizers/synchronizer-ws-server-durable-object";
 
-export class GroceriesDurableObject extends WsServerDurableObject {
+export class PartyDurableObject extends WsServerDurableObject {
   createPersister() {
     return createDurableObjectStoragePersister(
       createMergeableStore(),
@@ -15,5 +15,5 @@ export class GroceriesDurableObject extends WsServerDurableObject {
 }
 
 export default {
-  fetch: getWsServerDurableObjectFetch("GroceriesDurableObjects"),
+  fetch: getWsServerDurableObjectFetch("PartyDurableObjects"),
 };
