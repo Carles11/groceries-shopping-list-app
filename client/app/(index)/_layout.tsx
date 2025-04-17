@@ -60,7 +60,7 @@ export default function AppIndexLayout() {
               <Stack.Screen
                 name="list/new/index"
                 options={{
-                  presentation: "formSheet",
+                  presentation: "card",
                   sheetGrabberVisible: true,
                   headerShown: false,
                 }}
@@ -68,7 +68,7 @@ export default function AppIndexLayout() {
               <Stack.Screen
                 name="list/[listId]/edit"
                 options={{
-                  presentation: "formSheet",
+                  presentation: "card",
                   sheetAllowedDetents: [0.5, 0.75, 1],
                   sheetGrabberVisible: true,
                   headerLargeTitle: false,
@@ -78,7 +78,7 @@ export default function AppIndexLayout() {
               <Stack.Screen
                 name="list/[listId]/product/new"
                 options={{
-                  presentation: "formSheet",
+                  presentation: "card",
                   sheetAllowedDetents: [0.8, 1],
                   sheetGrabberVisible: true,
                   headerLargeTitle: false,
@@ -101,7 +101,7 @@ export default function AppIndexLayout() {
               <Stack.Screen
                 name="list/[listId]/product/[productId]"
                 options={{
-                  presentation: "formSheet",
+                  presentation: "card",
                   sheetAllowedDetents: [0.75, 1],
                   sheetGrabberVisible: true,
                   headerLargeTitle: false,
@@ -111,7 +111,7 @@ export default function AppIndexLayout() {
               <Stack.Screen
                 name="list/[listId]/share"
                 options={{
-                  presentation: "formSheet",
+                  presentation: "card",
                   sheetGrabberVisible: true,
                   headerLargeTitle: false,
                   headerTitle: "Invite",
@@ -120,7 +120,7 @@ export default function AppIndexLayout() {
               <Stack.Screen
                 name="profile"
                 options={{
-                  presentation: "formSheet",
+                  presentation: "card",
                   sheetAllowedDetents: [0.75, 1],
                   sheetGrabberVisible: true,
                   headerShown: false,
@@ -129,7 +129,7 @@ export default function AppIndexLayout() {
               <Stack.Screen
                 name="emoji-picker"
                 options={{
-                  presentation: "formSheet",
+                  presentation: "card",
                   headerLargeTitle: false,
                   headerTitle: "Choose an emoji",
                   sheetAllowedDetents: [0.5, 0.75, 1],
@@ -139,7 +139,7 @@ export default function AppIndexLayout() {
               <Stack.Screen
                 name="color-picker"
                 options={{
-                  presentation: "formSheet",
+                  presentation: "card",
                   headerLargeTitle: false,
                   headerTitle: "Choose a color",
                   sheetAllowedDetents: [0.5, 0.75, 1],

@@ -100,7 +100,7 @@ export default function CreateListScreen() {
       <BodyScrollView contentContainerStyle={styles.scrollViewContent}>
         <View style={styles.inputContainer}>
           <TextInput
-            placeholder="Grocery Essentials"
+            placeholder="The Essentials"
             value={listName}
             onChangeText={setListName}
             onSubmitEditing={handleCreateList}

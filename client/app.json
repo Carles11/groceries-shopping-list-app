@@ -1,37 +1,24 @@
 {
   "expo": {
     "name": "Party Shopping List",
-    "slug": "groceries-shopping-list",
+    "slug": "party-shopping-list",
+    "owner": "carlos_delrio",
     "version": "1.2.3",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "partyShoppingList",
+    "scheme": ["partyshoppinglist"],
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": false,
-      "bundleIdentifier": "com.carles.partyShoppingList",
-      "appleTeamId": "T2A8YY9YDW",
-      "icon": {
-        "light": "./assets/images/icon.png",
-        "dark": "./assets/images/icon-dark.png",
-        "tinted": "./assets/images/icon-tinted.png"
-      },
-      "config": {
-        "usesNonExemptEncryption": false
-      },
-      "entitlements": {
-        "com.apple.security.application-groups": [
-          "group.com.carles.partyShoppingList"
-        ]
-      }
-    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.carles.partyShoppingList"
+      "package": "com.carles.partyShoppingList",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -70,25 +57,21 @@
       ],
       "expo-sqlite",
       "expo-secure-store",
-      "expo-font",
-      "@bacons/apple-targets"
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     },
     "extra": {
       "router": {
         "origin": false
       },
       "eas": {
-        "projectId": "7428a2a2-f953-4c9f-8be3-74117e5fdc8d"
+        "projectId": "5d9dbfe4-2cd2-46cb-8ef0-f04cc10c0604"
       }
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/7428a2a2-f953-4c9f-8be3-74117e5fdc8d"
     }
   }
 }

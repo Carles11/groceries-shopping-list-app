@@ -19,6 +19,7 @@ export default function HomeScreen() {
   const shoppingListIds = useShoppingListIds();
 
   const handleNewListPress = () => {
+    console.log("new list clicked");
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     router.push("/list/new");
   };
