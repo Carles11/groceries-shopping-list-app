@@ -98,8 +98,7 @@ export default function ProfileScreen() {
       console.error(error);
     }
   };
-  console.log("PROFILE LANDING");
-  console.log({ user });
+
   return (
     <BodyScrollView contentContainerStyle={styles.container}>
       <View>
